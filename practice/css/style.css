@@ -1,0 +1,104 @@
+div {
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center; 
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+    padding: 0 30px;
+    z-index: 10000;
+    transition: background-color .3s linear;
+    background-color: white;
+}
+
+.head-id {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title { 
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(84, 13, 151);
+    text-align: left;
+}
+.head-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgb(66, 66, 66);
+}
+.ac-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(44, 44, 44);
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin-top: -100px;
+}
+
+
+.main {
+    margin-top: 80px;
+}
+.main-hero {
+    background: url(../img/S__16597022.jpg) center center / cover no-repeat;
+    height: 80vh;
+    padding: 40px 24px;
+}
+
+.desc {
+    margin: 30px;
+}
+.desc-info {
+    font-size: 20px;
+    text-align: center;
+}
+
+.class img {
+    width: 500px;
+}
+.cla-ul {
+    padding: 0 100px 100px 100px;
+}
+.cla-li {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-bottom: 50px;
+}
+.cla-li:nth-of-type(odd) {
+    grid-template-columns: 40% 60%;
+}
+.cla-li:nth-of-type(odd) .cla-img {
+    order: 2;
+}
+.cla-li:nth-of-type(odd) .cla-word {
+    order: 1;
+}
+.cla-img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cla-word {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.cla-title {
+    font-size: 26px;
+    font-weight: bolder;
+    
+}
